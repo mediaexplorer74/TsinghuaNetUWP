@@ -1,17 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.32804.182
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundLogOnTask", "BackgroundLogOnTask\BackgroundLogOnTask.csproj", "{C0117ECF-6DC4-4B31-A677-BDBC5F602E00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundLogOnTask", "TsinghuaNetUWP\BackgroundLogOnTask\BackgroundLogOnTask.csproj", "{C0117ECF-6DC4-4B31-A677-BDBC5F602E00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{F6A4B63E-1BBC-491F-8AB9-3415DF88FDD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "TsinghuaNetUWP\NotificationService\NotificationService.csproj", "{B856C287-9A19-445E-B6DA-B3A2579BE646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{B856C287-9A19-445E-B6DA-B3A2579BE646}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsinghuaNet", "TsinghuaNetUWP\TsinghuaNet\TsinghuaNet.csproj", "{6EA4BF54-0E4C-48F1-98E9-CBEFB7C54299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsinghuaNet", "TsinghuaNet\TsinghuaNet.csproj", "{6EA4BF54-0E4C-48F1-98E9-CBEFB7C54299}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "TsinghuaNetUWP\Web\Web.csproj", "{F6A4B63E-1BBC-491F-8AB9-3415DF88FDD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings", "Settings\Settings.csproj", "{BDAEFA4D-A53B-4F49-9F8A-E99553917B94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings", "TsinghuaNetUWP\Settings\Settings.csproj", "{BDAEFA4D-A53B-4F49-9F8A-E99553917B94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B9CC845-AACA-4B0F-B7B1-628BFDC065AB}"
+	ProjectSection(SolutionItems) = preProject
+		CleanUp.ps1 = CleanUp.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,7 +99,25 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {49090D34-239A-42CD-A9C0-C6CFAD17B8E1}
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://liuzhengyuan13.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BackgroundLogOnTask\\BackgroundLogOnTask.csproj
+		SccProjectName1 = BackgroundLogOnTask
+		SccLocalPath1 = BackgroundLogOnTask
+		SccProjectUniqueName2 = Web\\Web.csproj
+		SccProjectName2 = Web
+		SccLocalPath2 = Web
+		SccProjectUniqueName3 = NotificationService\\NotificationService.csproj
+		SccProjectName3 = NotificationService
+		SccLocalPath3 = NotificationService
+		SccProjectUniqueName4 = TsinghuaNet\\TsinghuaNet.csproj
+		SccProjectName4 = TsinghuaNet
+		SccLocalPath4 = TsinghuaNet
+		SccProjectUniqueName5 = Settings\\Settings.csproj
+		SccProjectName5 = Settings
+		SccLocalPath5 = Settings
 	EndGlobalSection
 EndGlobal

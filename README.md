@@ -4,7 +4,7 @@ This is my fork of [TsinghuaNet](https://github.com/OpportunityLiu/TsinghuaNet) 
 
 My goal is to research the "notification service" block and the "background tasks" block.
 
-I plan tu use this app's "design language" (black "metro-style" background, etc.) and all of this architecture "patern" :) 
+I plan to use this app's "design language" (black "metro-style" background, etc.) and "architecture patern" :) 
 
 
 ## Screenshots
