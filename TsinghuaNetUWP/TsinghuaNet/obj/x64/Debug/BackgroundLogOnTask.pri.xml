@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="BackgroundLogOnTask" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>ZH-CN,EN</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="BackgroundLogOnTask">
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="LogOnSucessful" uri="ms-resource://BackgroundLogOnTask/BackgroundLogOnTask/Resources/LogOnSucessful">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>登陆成功</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>Log on sucessfully</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Used" uri="ms-resource://BackgroundLogOnTask/BackgroundLogOnTask/Resources/Used">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>已用流量：{0}</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>Usage: {0}</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="NotificationService">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="NotificationService.rd.xml" uri="ms-resource://BackgroundLogOnTask/Files/NotificationService/Properties/NotificationService.rd.xml">
+						<Candidate type="Path">
+							<Value>NotificationService\Properties\NotificationService.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Web">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Web.rd.xml" uri="ms-resource://BackgroundLogOnTask/Files/Web/Properties/Web.rd.xml">
+						<Candidate type="Path">
+							<Value>Web\Properties\Web.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

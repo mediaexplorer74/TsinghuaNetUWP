@@ -1,0 +1,10 @@
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\BackgroundLogOnTask\BackgroundLogOnTask.csproj;x64
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\NotificationService\NotificationService.csproj;x64
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\NotificationService\NotificationService.csproj;x64
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\Settings\Settings.csproj;x64
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\Settings\Settings.csproj;x64
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\TsinghuaNet\TsinghuaNet.csproj;x64
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\Web\Web.csproj;x64
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\Web\Web.csproj;x64
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\Web\Web.csproj;x64
+C:\Users\media\source\repos\TsinghuaNet\TsinghuaNetUAP\Web\Web.csproj;x64

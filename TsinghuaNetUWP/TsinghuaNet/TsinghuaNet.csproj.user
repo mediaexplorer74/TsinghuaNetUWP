@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\media\Desktop\TsinghuaNet.png</Source>
+    <SmallTileSource>C:\Users\media\Desktop\TsinghuaNet.png</SmallTileSource>
+    <MediumTileSource>C:\Users\media\Desktop\TsinghuaNet.png</MediumTileSource>
+    <WideTileSource>C:\Users\media\Desktop\TsinghuaNet.png</WideTileSource>
+    <LargeTileSource>C:\Users\media\Desktop\TsinghuaNet.png</LargeTileSource>
+    <AppIconSource>C:\Users\media\Desktop\TsinghuaNet.png</AppIconSource>
+    <SplashScreenSource>C:\Users\media\Desktop\TsinghuaNet.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\media\Desktop\TsinghuaNet.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

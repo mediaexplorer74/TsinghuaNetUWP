@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Settings\\Settings.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Settings\\Settings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Settings\\Settings.csproj",
+        "projectName": "Settings",
+        "projectPath": "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Settings\\Settings.csproj",
+        "packagesPath": "C:\\Users\\media\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Settings\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\media\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.15063"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.15063": {
+            "projectReferences": {
+              "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Web\\Web.csproj": {
+                "projectPath": "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Web\\Web.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.15063": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.8, )"
+            },
+            "Microsoft.Services.Store.Engagement": {
+              "target": "Package",
+              "version": "[10.1901.28001, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Web\\Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Web\\Web.csproj",
+        "projectName": "Web",
+        "projectPath": "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\media\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\media\\source\\repos\\TsinghuaNet\\TsinghuaNetUAP\\Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\media\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.15063"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.15063": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.15063": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.8, )"
+            },
+            "Microsoft.Services.Store.Engagement": {
+              "target": "Package",
+              "version": "[10.1901.28001, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Opportunity.MvvmUniverse": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

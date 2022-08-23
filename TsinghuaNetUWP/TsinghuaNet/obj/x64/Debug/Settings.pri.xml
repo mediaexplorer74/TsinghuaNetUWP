@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Settings" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Web">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Web.rd.xml" uri="ms-resource://Settings/Files/Web/Properties/Web.rd.xml">
+						<Candidate type="Path">
+							<Value>Web\Properties\Web.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

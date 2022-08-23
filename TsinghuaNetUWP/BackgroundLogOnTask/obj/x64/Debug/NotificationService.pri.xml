@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="NotificationService" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>ZH-CN,EN</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="NotificationService">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="NotificationService.rd.xml" uri="ms-resource://NotificationService/Files/NotificationService/Properties/NotificationService.rd.xml">
+						<Candidate type="Path">
+							<Value>NotificationService\Properties\NotificationService.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Web">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Web.rd.xml" uri="ms-resource://NotificationService/Files/Web/Properties/Web.rd.xml">
+						<Candidate type="Path">
+							<Value>Web\Properties\Web.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="NotificationService">
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="NoDevices" uri="ms-resource://NotificationService/NotificationService/Resources/NoDevices">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>当前没有设备在线。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>No online devices.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Usage" uri="ms-resource://NotificationService/NotificationService/Resources/Usage">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>已用流量：{0}</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>Usage: {0}</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

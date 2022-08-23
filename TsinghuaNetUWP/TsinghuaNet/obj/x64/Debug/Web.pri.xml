@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Web" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>ZH-CN,EN</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Web">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Web.rd.xml" uri="ms-resource://Web/Files/Web/Properties/Web.rd.xml">
+						<Candidate type="Path">
+							<Value>Web\Properties\Web.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Web">
+			<ResourceMapSubtree name="Errors">
+				<NamedResource name="AuthError" uri="ms-resource://Web/Web/Errors/AuthError">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>认证过程中发生错误。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>Error occurs during the authentication.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ConnectError" uri="ms-resource://Web/Web/Errors/ConnectError">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>连接错误。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>Connection error.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2531" uri="ms-resource://Web/Web/Errors/E2531">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>用户不存在。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2532" uri="ms-resource://Web/Web/Errors/E2532">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>两次认证的间隔太短。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2533" uri="ms-resource://Web/Web/Errors/E2533">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>尝试次数过于频繁。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2553" uri="ms-resource://Web/Web/Errors/E2553">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>密码错误。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2601" uri="ms-resource://Web/Web/Errors/E2601">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>不是专用客户端。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2606" uri="ms-resource://Web/Web/Errors/E2606">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>用户被禁用。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2611" uri="ms-resource://Web/Web/Errors/E2611">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>MAC 绑定错误。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2613" uri="ms-resource://Web/Web/Errors/E2613">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>NAS PORT 绑定错误。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2616" uri="ms-resource://Web/Web/Errors/E2616">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>已欠费。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2620" uri="ms-resource://Web/Web/Errors/E2620">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>连接数已满，请登录http://usereg.tsinghua.edu.cn，选择下线您的IP地址。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2806" uri="ms-resource://Web/Web/Errors/E2806">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>找不到符合条件的产品。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2807" uri="ms-resource://Web/Web/Errors/E2807">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>找不到符合条件的计费策略。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2808" uri="ms-resource://Web/Web/Errors/E2808">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>找不到符合条件的控制策略。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2833" uri="ms-resource://Web/Web/Errors/E2833">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>IP 地址异常，请重新拿地址 </Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2840" uri="ms-resource://Web/Web/Errors/E2840">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>校内地址不允许访问外网。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2841" uri="ms-resource://Web/Web/Errors/E2841">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>IP 地址绑定错误。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2842" uri="ms-resource://Web/Web/Errors/E2842">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>IP 地址无需认证可直接上网。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2843" uri="ms-resource://Web/Web/Errors/E2843">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>IP 地址不在 IP 表中。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2844" uri="ms-resource://Web/Web/Errors/E2844">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>IP 地址在黑名单中，请联系管理员。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E2901" uri="ms-resource://Web/Web/Errors/E2901">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>第三方接口认证失败。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E3001" uri="ms-resource://Web/Web/Errors/E3001">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>流量或时长已用尽。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E3002" uri="ms-resource://Web/Web/Errors/E3002">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>计费策略条件不匹配。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E3003" uri="ms-resource://Web/Web/Errors/E3003">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>控制策略条件不匹配。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="E3004" uri="ms-resource://Web/Web/Errors/E3004">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>余额不足。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PasswordError" uri="ms-resource://Web/Web/Errors/PasswordError">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>密码错误。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>Wrong password.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UnknownError" uri="ms-resource://Web/Web/Errors/UnknownError">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>未知错误。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>Unknown error.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UserNameError" uri="ms-resource://Web/Web/Errors/UserNameError">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>用户名错误。</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>Wrong user ID.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="CurrentDevice" uri="ms-resource://Web/Web/Resources/CurrentDevice">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>(本机)</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>(This device)</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UnknownDevice" uri="ms-resource://Web/Web/Resources/UnknownDevice">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>(未知设备)</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" type="String">
+						<Value>(Unknown device)</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
