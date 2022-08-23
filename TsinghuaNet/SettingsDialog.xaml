@@ -1,0 +1,38 @@
+﻿<ContentDialog x:Class="TsinghuaNet.SettingsDialog"
+               x:Uid="SettingsDialog"
+               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:local="using:TsinghuaNet"
+               xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+               xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+               mc:Ignorable="d"
+               PrimaryButtonText="OK"
+               PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+               Loading="ContentDialog_Loading">
+    <StackPanel MinWidth="240">
+        <ToggleSwitch x:Name="toggleSwitchLogOn"
+                      x:Uid="LogOnToggleSeitch"
+                      Header="Auto login"
+                      Margin="0,4"
+                      Toggled="toggleSwitchLogOn_Toggled" />
+        <ComboBox x:Name="comboBoxTheme"
+                  Margin="0,4"
+                  SelectionChanged="comboBoxTheme_SelectionChanged"
+                  HorizontalAlignment="Stretch">
+            <ComboBox.Header>
+                <StackPanel>
+                    <TextBlock x:Uid="ThemeTextBlock1">
+                    Theme
+                    </TextBlock>
+                    <TextBlock x:Uid="ThemeTextBlock2"
+                               Style="{StaticResource CaptionTextBlockStyle}">
+                        (need to restart the app)
+                    </TextBlock>
+                </StackPanel>
+            </ComboBox.Header>
+            <ComboBoxItem x:Uid="ThemeComboBoxItem0">Auto</ComboBoxItem>
+            <ComboBoxItem x:Uid="ThemeComboBoxItem1">Light</ComboBoxItem>
+            <ComboBoxItem x:Uid="ThemeComboBoxItem2">Dark</ComboBoxItem>
+        </ComboBox>
+    </StackPanel>
+</ContentDialog>

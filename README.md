@@ -1,4 +1,42 @@
-# Tsinghua Net
-3rd-party UWP Client for Tsinghua Campus Network
+# TsinghuaNetUWP (codename)
 
-<a href="https://www.microsoft.com/store/apps/9nblgggz5q4j?cid=github"><img height="64" src="https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png" alt="Get it from Microsoft" /></a>
+This is my fork of [TsinghuaNet](https://github.com/OpportunityLiu/TsinghuaNet) project.
+
+My goal is to research the "notification service" block and the "background tasks" block.
+
+I plan tu use this app's "design language" (black "metro-style" background, etc.) and all of this architecture "patern" :) 
+
+
+## Screenshots
+
+![shot 1](Images/shot1.png)
+![shot 2](Images/shot2.png)
+
+
+## Few words about the original
+
+- MS Store url: https://apps.microsoft.com/store/detail/tsinghua-net/9NBLGGGZ5Q4J
+
+- Tsinghua Net is a third-party authentication client for Tsinghua University campus network, provides campus network login and query service, you can also use the app to fetch the e-learning services of Tsinghua.
+ 
+
+## Solution structure 
+
+- TsinghuaNet :: Main part (UWP, min. os. build 15063)
+- Web :: Some Internet (Web) deals
+- Settings :: App Settings
+- NotificationService :: Toasts, etc.
+- BackgroundLogOnTask :: Background Tasks
+
+
+
+## .
+
+AS IS. No support. RnD only.
+
+
+## ..
+
+[m][e] 2022
+
+
